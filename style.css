@@ -1,0 +1,217 @@
+.container {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    cursor: pointer;
+    padding-right: 50px;
+}
+
+.quiz {
+    grid-area: quiz;
+    width: 800px;
+    height: 600px;
+    background-color: #1c3054;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    color: white;
+    font-family: 'Avenir Next LT PRO', sans-serif;
+  }
+  
+  
+  
+  .slut {
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px;
+    color: #1c3054;
+  }
+  
+  .slut h3 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+  }
+  
+  
+  .btn {
+    margin-top: 200px;
+    font-family: 'Avenir Next LT PRO', sans-serif;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #de9d35;
+    font-size: 25px;
+    transition: height .3s;
+  }
+  
+  .btn:hover {
+    height: 100px;
+    color: white;
+  }
+  
+  
+  /* Display værdier quiz */
+  
+  .quizStart {
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .quizStart button {
+      margin-top: 230px;
+  }
+  
+  .alder {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .alder ul {
+    padding: 0;
+  }
+  
+  .q1 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  
+  .q1 img {
+    margin: 0 auto;
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a1 {
+    display: none;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 40px;
+  }
+
+  .a1 button {
+    margin-top: 230px;
+}
+
+  .a1 p, .a2 p, .a3 p {
+      padding: 0 40px;
+  }
+  
+  .q2 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a2 {
+    display: none;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 40px;
+  }
+ 
+  
+  .q3 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a3 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  .a3 button {
+    margin-top: 230px;
+}
+  
+  
+  .q4 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q4 img {
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a4 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .a4 button {
+      margin-top: 250px;
+  }
+  
+  .q5 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q5 img {
+    width: 100px;
+    max-width: 100%;
+  }
+  
+  .a5 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+
+  .a5 button {
+      margin-top: 230px;
+  }
+
+  .a5 p {
+      padding: 0 40px;
+  }
+  
+  .q6 {
+    display: none;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 40px;
+  }
+  .q6 img {
+    width: 200px;
+    max-width: 100%;
+  }
+  .a6 {
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 40px;
+  }
+  
+  .a6 button {
+    margin-top: 230px;
+  }
+  
+  .slut {
+    display: none;
+  }
+  
